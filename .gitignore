@@ -61,3 +61,5 @@ fastlane/test_output
 Derived
 graph.png
 derived_data
+SwiftCoder.xcodeproj
+SwiftCoder.xcworkspace
