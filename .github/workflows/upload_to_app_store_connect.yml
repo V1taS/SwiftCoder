@@ -100,14 +100,14 @@ jobs:
     - name: Upload App build artifact
       uses: actions/upload-artifact@v3
       with:
-        name: Avatars
-        path: "Avatars.ipa"
+        name: SwiftCoder
+        path: "SwiftCoder.ipa"
 
     - name: Upload dSYM build artifact
       uses: actions/upload-artifact@v3
       with:
-        name: Avatars.app.dSYM
-        path: "Avatars.app.dSYM.zip"
+        name: SwiftCoder.app.dSYM
+        path: "SwiftCoder.app.dSYM.zip"
 
     - name: Upload to App Store Connect
       run: |
